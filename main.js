@@ -4,6 +4,6 @@ function teste (){
    var expires = "expires="+ d.toUTCString();
    document.cookie = 'visit' + "=" + 'cvalue' + ";" + expires + ";path=/";
 
-   fetch('http://localhost:3005').then((res)=>res.json())
+  // fetch('http://localhost:3005').then((res)=>res.json())
     return  document.cookie;  
 }  
