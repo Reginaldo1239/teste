@@ -10,5 +10,5 @@ function teste (){
 
 
 
-    return  document.cookie;  
+    return  window.location;  
 }  
