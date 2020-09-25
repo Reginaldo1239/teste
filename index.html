@@ -63,6 +63,10 @@ To get started with Bitnami WAMP Stack we suggest the following:<br/><br/>
     var expires = "expires="+ d.toUTCString();
     document.cookie = 'cname' + "=" + 'cvalue' + ";" + expires + ";path=/";
   }
-  a();
+
+
+  window.onload=()=>{
+    a();
+  }
 </script>
-</html>
+</html> 
